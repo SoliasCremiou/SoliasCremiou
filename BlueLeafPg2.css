@@ -1,0 +1,127 @@
+body    {
+    /* Old Browsers */
+    background: #80C342;
+    /* Chrome 10-25 Safari 5.1-6 */
+    background: -webkit-linear-gradient(-45deg, #80C342, #118B44);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(-45deg, #80C342, #118B44);
+    margin: 0;
+    padding: 0;
+}
+
+.container   {
+    margin: 0 auto;
+    position: relative;
+    max-width: 940px;
+    padding: 0 10px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+.nav {
+    background: #000;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    height: 80px;
+    width: 100%;
+    z-index: 10;
+}
+
+.nav ul {
+    height: 80px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.nav ul li {
+    color: #fff;
+    display: inline-block;
+    height: 80px;
+    line-height: 80px;
+    list-style: none;
+    padding: 0 10px;
+    transition: background .5s;
+}
+
+.btn:hover, .nav ul li:hover {
+    background: #117bff;
+    cursor: pointer;
+    transition: background .5s;
+}
+
+h1  {
+    color:#000000;
+    font-family: Algerian;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 100px;
+    width: 100%;
+}
+
+h2  {
+    border-bottom: 1px solid rgba(0, 0, 0, 100);
+    color: rgb(0, 0, 0);
+    font-family: Algerian;
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 24px;
+    padding-bottom: 30px;
+    text-align: left;
+    width: 70%;
+}
+
+p   {
+    color: black;
+    font-family: "Bookman Old Style";
+    font-size: 18px;
+    line-height: 1.3em;
+    text-align: left;
+    width: 100%;
+}
+
+.caption    {
+    display: block;
+    font-family: "Rockwell Extra Bold";
+    opacity: 0.5;
+    font-weight: bolder;
+    background-color: white;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 14px;
+    margin-left: 20px;
+    padding: 10px;
+    position: relative;
+    top: 80%;
+    width: 60%;
+    color: #000000;
+}
+
+.content    {
+    padding: 40px;
+}
+
+.image  {
+    background-image: url("https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJahImEhKuQk/v1/-1x-1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.writer-img {
+    -webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    -moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    float: left;
+    position: absolute;
+    top: 130px;
+    width: 50px;
+}
